@@ -4,7 +4,7 @@ selenium_runner_for_codeando_automated__task.
 
 this testcase was recorded with the selenium extension for chrome, and used with the selenium cli-side-runner, you can also export and use the script in ruby, python or java but in this case we will use the selenium CLI which seems to be faster and more practical.
 
-for this case we will automate several clicks on the page by coding and normal routines to test the functioning of the page.
+for this case we will automate several clicks on the page by coding and normal routines to test routes  of the page.
  the way to install the selenium CLI is as follows:
 
 node (the Node.js programming language) version 8 or 10
