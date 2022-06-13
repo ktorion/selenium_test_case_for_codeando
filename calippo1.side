@@ -1,0 +1,403 @@
+{
+  "id": "f0f6b8e7-1aa8-42f2-8062-3cc57cacf190",
+  "version": "2.0",
+  "name": "calippo1",
+  "url": "https://codeando-3cc40.netlify.app",
+  "tests": [{
+    "id": "22e77aaf-b350-4916-b4cd-80e888c44630",
+    "name": "testcase1",
+    "commands": [{
+      "id": "0065e999-e741-4d57-a9ba-c27c21dbb5bd",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "795f5b54-9f72-4de5-a9e1-e0c1000e38ba",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "2544x1316",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ed91ead-3eb2-498a-b7a7-f45f96de78b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-full:nth-child(1) .sm\\3Atext-lg",
+      "targets": [
+        ["css=.w-full:nth-child(1) .sm\\3Atext-lg", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div[3]/div/div/div/div/a/div[2]/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Polonia')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bc5f25b-4b52-40dd-a1e2-0318d7f4c68c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.w-full:nth-child(1) .sm\\3Atext-lg",
+      "targets": [
+        ["css=.w-full:nth-child(1) .sm\\3Atext-lg", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div[3]/div/div/div/div/a/div[2]/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Polonia')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c29ebbd3-289e-41d9-967b-3944ce76fe06",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mas info",
+      "targets": [
+        ["linkText=Mas info", "linkText"],
+        ["css=.mt-8 > .inline-block", "css:finder"],
+        ["xpath=//a[contains(text(),'Mas info')]", "xpath:link"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div[2]/div/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.polska.pl/')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mas info')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1428",
+      "windowTimeout": 2000
+    }, {
+      "id": "0297a6b0-bb34-4bbf-bd0d-7773a3fe8a17",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f028178-6ec7-46bb-810f-21d0ec4354ff",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1428}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32aebde1-5df8-475b-a6eb-5f990250a724",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2ccff288-34f9-4db2-8073-4742a037c890",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About",
+      "targets": [
+        ["linkText=About", "linkText"],
+        ["css=.ml-6:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'About')]", "xpath:link"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/about')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'About')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd859c57-1bde-43b6-9e00-4a97976a589d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=contact@poetafotografo.com",
+      "targets": [
+        ["linkText=contact@poetafotografo.com", "linkText"],
+        ["css=.border-b", "css:finder"],
+        ["xpath=//a[contains(text(),'contact@poetafotografo.com')]", "xpath:link"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div[2]/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'mailto:emorek2002@gmail.com')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'contact@poetafotografo.com')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb22d4f7-c141-4454-a001-72c5d49dfc70",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=.ml-6:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[2]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7e606f0-be89-411d-b58a-23dbe6dae969",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=.ml-6:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[2]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e4cea56-7cec-4730-8980-33fdfc117c13",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-full:nth-child(2) picture > img",
+      "targets": [
+        ["css=.w-full:nth-child(2) picture > img", "css:finder"],
+        ["xpath=//img[@alt='España']", "xpath:img"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div[3]/div/div/div[2]/div/a/div/div/picture/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div/div/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "64e6ff06-72b1-4ace-8264-56b64fa4d40f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23c76a86-1bf9-4582-81cc-6e9c0639322f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mas info",
+      "targets": [
+        ["linkText=Mas info", "linkText"],
+        ["css=.mt-8 > .inline-block", "css:finder"],
+        ["xpath=//a[contains(text(),'Mas info')]", "xpath:link"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div[2]/div/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.spain.info')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mas info')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win54",
+      "windowTimeout": 2000
+    }, {
+      "id": "efa74ed2-0ee3-4797-b391-ac7ab1fc31cc",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win54}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb3ea16a-6cdb-4d0a-8974-4744e81fdf77",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cm-btn-success",
+      "targets": [
+        ["css=.cm-btn-success", "css:finder"],
+        ["xpath=(//button[@type='button'])[28]", "xpath:attributes"],
+        ["xpath=//div[@id='cc--main']/div/div/div[2]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ACEPTAR TODAS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "988e7d88-068e-447b-9600-844928aef49d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1428}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e08395f-81de-4add-a580-e7cb008e2597",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d2cc896-dfb0-4abb-9339-decdeca0c4fa",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win54}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1eb65255-5c7f-444c-8ea3-9815610eda99",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28c4b989-c2ac-4d59-a4bc-b63be12822e0",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d3ccaea-81c3-46a7-a625-37d54d7f8299",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-24",
+      "targets": [
+        ["css=.w-24", "css:finder"],
+        ["xpath=//img[@alt='Logo']", "xpath:img"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00439f33-c185-4462-a6ef-62dc9770110d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.appearance-none",
+      "targets": [
+        ["css=.appearance-none", "css:finder"],
+        ["xpath=//input[@type='email']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div[4]/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1c9e75a-5607-425e-81fe-b7f04adfecfa",
+      "comment": "",
+      "command": "type",
+      "target": "css=.appearance-none",
+      "targets": [
+        ["css=.appearance-none", "css:finder"],
+        ["xpath=//input[@type='email']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div[4]/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "lalalal"
+    }, {
+      "id": "de06035a-13a4-4f08-9e2b-f590eb947d88",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-base",
+      "targets": [
+        ["css=.text-base", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div[4]/form/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'entra!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd8bb6c9-c471-4494-b5db-6db106e20262",
+      "comment": "",
+      "command": "click",
+      "target": "css=.appearance-none",
+      "targets": [
+        ["css=.appearance-none", "css:finder"],
+        ["xpath=//input[@type='email']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div[4]/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15c7ec2a-49a6-484d-b747-b75ba3eac229",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.appearance-none",
+      "targets": [
+        ["css=.appearance-none", "css:finder"],
+        ["xpath=//input[@type='email']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div[4]/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c791067-5ed2-4212-b9a0-43b7cfc73698",
+      "comment": "",
+      "command": "click",
+      "target": "css=.appearance-none",
+      "targets": [
+        ["css=.appearance-none", "css:finder"],
+        ["xpath=//input[@type='email']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div[4]/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34b43903-d1fd-46c0-9d8b-a2d0b5bab85a",
+      "comment": "",
+      "command": "type",
+      "target": "css=.appearance-none",
+      "targets": [
+        ["css=.appearance-none", "css:finder"],
+        ["xpath=//input[@type='email']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div[4]/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "emorek2002@gmail.com"
+    }, {
+      "id": "5a09dc7a-1b25-4882-b778-a243b30cd3a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-base",
+      "targets": [
+        ["css=.text-base", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div[4]/form/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'entra!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "746b62f3-2dd6-4970-b207-2c034854d169",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About",
+      "targets": [
+        ["linkText=About", "linkText"],
+        ["css=.ml-6:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'About')]", "xpath:link"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/about')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'About')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ba15964-a63f-4c02-be30-3b15cafaaef4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=.ml-6:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[2]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7dd66846-a062-48e3-91d5-b60c3362b42a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About",
+      "targets": [
+        ["linkText=About", "linkText"],
+        ["css=.ml-6:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'About')]", "xpath:link"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/about')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'About')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "cd4eeb01-6d48-48a8-b0e9-c0669e9ec3bf",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["22e77aaf-b350-4916-b4cd-80e888c44630"]
+  }],
+  "urls": ["https://codeando-3cc40.netlify.app/"],
+  "plugins": []
+}
