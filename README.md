@@ -4,7 +4,9 @@ selenium_runner_for_codeando_automated__task.
 
 this testcase was recorded with the selenium extension for chrome, and used with the selenium cli-side-runner, you can also export and use the script in ruby, python or java but in this case we will use the selenium CLI which seems to be faster and more practical.
 
-for this case we will automate several clicks on the page by coding and normal routines to test routes  of the page.
+for this case we will automate several clicks on the page  to test routes.
+
+
  the way to install the selenium CLI is as follows:
 
 node (the Node.js programming language) version 8 or 10
@@ -34,6 +36,14 @@ finally after the installation it is advisable to restart the computer at least 
 after having everything installed you can use the script in the following way:
 
 >selenium-side-runner /path/to/calippo1.side (calippo1 is a recorded script) 
+
+
+
+
+if the test fails it is because you don't have geary or an email manager but in this case we expect it to fail.
+the expected operation is to open the browser and start clicking on the links, 
+when the test passes it has a speed of about 10 seconds when it fails it takes twice as long,
+if anyone wants to collaborate with the testing of this page using the tools I can do it anytime! 
 
 
 
